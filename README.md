@@ -51,12 +51,12 @@ integracion-continua/
 ├── Jenkinsfile  
 ├── package.json   
 ├── app.js  
-├── test/  
-│   └── app.test.js  
-├── db.json
-├── server.js
-├── README.md  
-└── REPORT.md  
+├── test/   
+│   └── app.test.js   
+├── db.json  
+├── server.js  
+├── README.md    
+└── REPORT.md    
 
 ## 👩‍💻 / 👨‍💻 Equipo
 
