@@ -3,7 +3,7 @@ pipeline {
   stages {
     stage('Clonar Repo') {
       steps {
-        git url: 'https://github.com/Antonioedwardsd/integracion-continua.git', branch: 'main'
+        git url: 'https://github.com/Antonioedwardsd/integracion-continua.git', branch: 'master'
       }
     }
     stage('Instalar Dependencias') {
