@@ -14,7 +14,7 @@ Este proyecto implementa un pipeline de integración continua (CI) para una API 
 - Se creó un repositorio remoto en GitHub y se configuró como origen del repo local.
 
 ### 2. Configuración básica de la API
-- Se utilizó `json-server` para levantar una API REST fake con los datos de `db.json`.
+- Se creo un archivo server.js para levantar una API REST fake con los datos de `db.json`.
 - Se verificó que los endpoints estuvieran funcionales en `http://localhost:3000`.
 
 ### 3. Pipeline en Jenkins
@@ -58,6 +58,7 @@ Este proyecto implementa un pipeline de integración continua (CI) para una API 
 
 - **json-server no se ejecutaba en segundo plano**: Se resolvió utilizando `&` al final del comando y un `sleep` para esperar que el servidor esté listo.
 - **Jenkins no reconocía algunos módulos**: Se solucionó asegurando que `node_modules` esté correctamente instalado antes de ejecutar pruebas.
+- **Configuración jenkinsfile sh vs bat**: Se solucionó identificando que el ambiente donde se levanto localmente es win, por lo que fue necesario ajustar los comandos a bat.
 
 ---
 
