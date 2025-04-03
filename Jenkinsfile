@@ -8,12 +8,12 @@ pipeline {
     }
     stage('Instalar Dependencias') {
       steps {
-        sh 'npm install' // Cambia de 'npm ci' a 'npm install'
+        bat 'npm install' // Cambia de 'npm ci' a 'npm install'
       }
     }
     stage('Pruebas') {
       steps {
-        sh 'npm run test'
+        bat 'npm run test'
       }
     }
   }
