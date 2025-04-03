@@ -1,4 +1,4 @@
-# 📝 Task API Project
+# 📝 CI Pipeline API Project
 
 Este proyecto es una API REST simple construida con **Node.js**, diseñada para gestionar usuarios. Incluye integración con **Docker** para facilitar la ejecución en contenedores y con **Jenkins** para automatizar flujos de integración y entrega continua (CI/CD).
 
